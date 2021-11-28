@@ -1,0 +1,290 @@
+.hidden{
+    display: none;
+}
+
+#body-background{
+    height: 100vh;
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin:0;
+}
+#login-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.textInputForm{
+    position: relative;
+    padding:10px;
+    outline: none;
+    left: 50%;
+    width:100%;
+    transform: translate(-50%, 0%);
+    border-top : 0px;
+    border-left : none;
+    border-right : none;
+    border-bottom : 5px double black;
+    font-size:1.3rem;
+    text-align: center;
+    /* background:none; */
+}
+
+.whiteBackgroundBox{
+    position:relative;
+    left: 50%;
+    top: 50%;
+    width: 35%;
+    height: 25%;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    opacity: 0.75;
+    outline-offset: 11px;
+    border-radius: 30px;
+}
+
+#clock-box{
+    position: absolute;
+    right:5%;
+    top:5%;
+    /* opacity: 0.8; */
+    background-color: white;
+    /* opacity: 0.5; */
+    padding:20px;
+    border-radius: 10%;
+    outline: 5px solid black;
+    font-style:italic;
+    /* transform: translate(-50%, -50%); */
+}
+
+#clock{
+    font-weight:bold;
+}
+
+#dday-box{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width:20%;
+    height:20%;
+    border-radius: 20px;
+    opacity: 0.8;
+    /* border-radius: inherit; */
+    background-color: white;
+    outline: 3px solid gold;
+    overflow: hidden;
+}
+
+.gold{
+    background-color:gold;
+}
+
+.windowTitle{
+    position: relative;
+    width:100%;
+    color:black;
+    height:25%;
+    font-weight: bold;
+    text-align: center;
+    /* margin:0; */
+    /* align-content: center; */
+}
+#windowTitle-text{
+    position: relative;
+    top:50%;
+    font-size:3vmin;
+    transform: translate(0%, -50%);
+    margin:auto;
+}
+
+.dday-text{
+    /* background-color: blue; */
+    text-align: center;
+    font-size:3.5vmin;
+    margin:10px;
+    /* font-weight: bold; */
+}
+.dday-text-box{
+    background-color: tomato;
+    font-weight:bold;
+    border-radius: 20px;
+    width:90%;
+    transform: translate(2.5%, 0%);
+}
+
+#weather-box{
+    position: relative;
+    left: 20%;
+    top: 35%;
+    width:20%;
+    height:20%;
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: black;
+    outline: 3px solid brown;
+    overflow: hidden;
+    color:white;
+    font-size:2vmin;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+#text-var{
+    color:hotpink;
+}
+
+#text-geoInfo{
+    color: orange;
+}
+
+.text-key{
+    color:#009900;
+}
+
+.text-value{
+    color:indianred;
+}
+
+#weather-box-outer-lines{
+    position: relative;
+    left:4vw;
+    top:36%;
+    transform: translate(0%, -50%);
+}
+
+#weather-box-inner-lines{
+    position: relative;
+    left:10%;
+}
+
+#todo-box{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    width:25%;
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: #161E54;
+    outline: 5px outset #161E54;
+    overflow: hidden;
+    color:gold;
+    font-size:2vmin;
+}
+
+#todo-title-box{
+    margin-top:3%;
+    margin-bottom:5%;
+}
+
+.text-white{
+    color:white;
+}
+
+#todo-form{
+    position:relative;
+    background-color: none;
+}
+
+#todo-input{
+    position: relative;
+    left:50%;
+    width:70%;
+    transform: translate(-50%, 0%);
+
+    background: none;
+    border-top : 0px;
+    border-left : none;
+    border-right : none;
+    border-bottom : 2px solid gold;
+
+    color:white;
+    text-align: center;
+}
+
+ul{
+    /* list-style: none; */
+    padding-left:0px;
+}
+#todo-list{
+    position: relative;
+    left:20%;
+    width:80%;
+}
+#todo-list > li{
+    position: relative;
+    padding:10px;
+    /* left:20%; */
+}
+
+#todo-list > li > span{
+    font-style:italic;
+}
+
+#todo-list > li > button{
+    position:absolute;
+    right:25%;
+    background:gold;
+    color: black;
+    border-radius: 20px;
+}
+
+#quote-box{
+    position: absolute;
+    left: 12%;
+    bottom: 17%;
+    width: 76%;
+    height:15%;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.6);
+    color:black;
+    /* outline: 5px outset #161E54; */
+}
+
+#quote-inner-box{
+    position: relative;
+    margin:0;
+    left:50%;
+    top:50%;
+    width:80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-style:italic;
+}
+#quote-inner-box > span:first-child{
+    font-size:3vh;
+}
+
+#icon-box{
+    position: absolute;
+    left: 50%;
+    bottom: 4%;
+    transform: translate(-50%, 0%);
+    padding:0;
+}
+
+#icon-box> ul{
+    list-style: none;
+    padding-left:0px;
+    position: relative;
+    margin:auto;
+}
+
+#icon-box > ul > li{
+    padding: 10px;
+    float : left;
+}
+#img-change{
+    position: absolute;
+    top:50%;
+    right:7%;
+    transform: translate(0%, -50%);
+    border:0;
+}
+img:hover{
+    filter: drop-shadow(3px 3px 4px);
+}

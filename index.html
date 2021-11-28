@@ -1,1 +1,81 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>◎ sVyu's Webpage ◎</title>
+</head>
+<body id="body-background">
+    <div id="clock-box">
+        <span id="clock">00:00</span>
+    </div>
+    <div class="whiteBackgroundBox" id="login-form-box">
+        <form id="login-form" class="hidden" >
+            <input type="text" required maxlength="15" class="textInputForm" placeholder="Your name ?"/>
+        </form>
+    </div>
+    <div id="dday-box">
+        <div class="windowTitle gold"><p id="windowTitle-text">D - Day</p></div>
+        <div>
+            <p class="dday-text dday-text-box">
+                <img src="img/christmas-tree.png"> X - MAS <img src="img/christmas-tree.png">
+            </p>
+            <p class="dday-text" id="clockForChristmas">(clockForChristmas)</p>
+        </div>
+    </div>
+    <div id="weather-box">
+        <div class="windowTitle bg-brown"><p id="windowTitle-text">Geo Info</p></div>
+        <div id="weather-box-outer-lines">
+            <span id="text-var">let </span> <span id="text-geoInfo">geoInfo</span> = {
+                <br/>
+                <span id="weather-box-inner-lines">
+                <span class="text-key">city</span> : <span id="city-value" class="text-value">null</span>,
+                <br/>
+                <span class="text-key">weather</span> : <span id="weather-value" class="text-value">null</span>,
+                <br/>
+                <span class="text-key">temp</span> : <span id="temp-value" class="text-value">null</span>
+                <br/> 
+                </span>
+            };
+        </div>
+    </div>
+    <div id="todo-box">
+        <div class="windowTitle text-white" id="todo-title-box"><span id="greeting" class="hidden"></span>'s To-Do List</div>
+        <div>
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To-Do !" maxlength="15" id="todo-input" required />
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
+    <div id="quote-box">
+        <div id="quote-inner-box">
+            <span></span>
+            <br/>
+            <span></span>
+        </div>
+        <img src="img/change.png" id="img-change">
+    </div>
+    <div id="icon-box">
+        <ul>
+            <li><img src="img/background.png" id="img-background"></li>
+            <li><img src="img/calendar.png" id="img-calendar"></li>
+            <li><img src="img/weather.png" id="img-weather"></li>
+            <li><img src="img/to-do-list.png" id="img-to-do-list"></li>
+            <li><img src="img/clock.png" id="img-clock"></li>
+            <li><img src="img/quote.png" id="img-quote"></li>
+            <li><img src="img/logout.png" id="img-logout"></li>
+        </ul>
+    </div>
+    <script src="js/background.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/clockForChirstmas.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/img-click.js"></script>
+</body>
+</html>
