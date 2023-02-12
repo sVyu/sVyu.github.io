@@ -3,7 +3,7 @@ title: "Front-End"
 layout: category
 permalink: /categories/front-end/
 author_profile: true
-taxonomy: Categories2
+taxonomy: Front-End
 sidebar:
   nav: "categories"
 ---
