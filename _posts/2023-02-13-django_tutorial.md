@@ -1,4 +1,5 @@
 ---
+published: true
 title: "[배운 내용 정리] Python Django Web Framework - 생활코딩 선생님"
 excerpt: "Django Framework 강의 내용 정리"
 
