@@ -1,5 +1,5 @@
 ---
-title: "space for Aaaalgorithm"
+title: "space for Aaaalgorithm :)"
 layout: category
 permalink: /categories/algorithm/
 author_profile: true

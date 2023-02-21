@@ -20,7 +20,7 @@ last_modified_at: 2023-02-13
 ---
 ## <b>◎ Thanks for</b>
 <p align="center">
-    <img src="/assets/images/django_tutorial_images/image1.png" width="100%" height="100%" alt="img_not_loaded">
+    <img src="/assets/images/posts_img/django_tutorial_images/image1.png" width="100%" height="100%" alt="img_not_loaded">
 </p>
 
 <b> [생활코딩 opentutorials Django Web Framework][link1]</b>      
@@ -77,7 +77,7 @@ django-admin startproject myproject .
 
 <br>
 <p align="center">
-<img src="/assets/images/django_tutorial_images/image2.png" width="50%" height="50%" alt="img_not_loaded">
+<img src="/assets/images/posts_img/django_tutorial_images/image2.png" width="50%" height="50%" alt="img_not_loaded">
 </p>
 <b>settings.py</b> : 프로그램 운영에 필요한 여러 가지 <b>세팅</b>이 들어가는 파일   
 <b>manage.py</b> : 여러 가지 <b>기능</b>이 들어가는 <b>유틸리티 파일</b>
@@ -91,14 +91,14 @@ python manage.py runserver (port_num)
 <b>필요한 경우 port_num에 원하는 숫자를 넣어서 실행</b>합니다
 <br>  
 <br>
-<img src="/assets/images/django_tutorial_images/image3.png" width="100%" height="100%"  alt="img_not_loaded">   
+<img src="/assets/images/posts_img/django_tutorial_images/image3.png" width="100%" height="100%"  alt="img_not_loaded">   
 위와 같이 <b>Import __ could not resolved from source Pylance (reportMissingModuleSource)</b>가 발생하는 경우,
 이하의 방법으로 해결 가능합니다 
 
-<img src="/assets/images/django_tutorial_images/image4.png" width="100%" height="100%"  alt="img_not_loaded">
-<img src="/assets/images/django_tutorial_images/image5.png" width="100%" height="100%"  alt="img_not_loaded">
-<img src="/assets/images/django_tutorial_images/image6.png" width="100%" height="100%"  alt="img_not_loaded">
-<img src="/assets/images/django_tutorial_images/image7.png" width="100%" height="100%"  alt="img_not_loaded">  
+<img src="/assets/images/posts_img/django_tutorial_images/image4.png" width="100%" height="100%"  alt="img_not_loaded">
+<img src="/assets/images/posts_img/django_tutorial_images/image5.png" width="100%" height="100%"  alt="img_not_loaded">
+<img src="/assets/images/posts_img/django_tutorial_images/image6.png" width="100%" height="100%"  alt="img_not_loaded">
+<img src="/assets/images/posts_img/django_tutorial_images/image7.png" width="100%" height="100%"  alt="img_not_loaded">  
 발생 원인 : python 경로를 제대로 잡지 못 해서 생기는 오류입니다  
 <br>
 
@@ -115,8 +115,8 @@ python manage.py runserver (port_num)
 ```
 django-admin startapp myapp
 ```
-<img src="/assets/images/django_tutorial_images/image8.png" width="100%" height="100%"  alt=""> 
-<img src="/assets/images/django_tutorial_images/image9.png" width="100%" height="100%"  alt="img_not_loaded"> 
+<img src="/assets/images/posts_img/django_tutorial_images/image8.png" width="100%" height="100%"  alt=""> 
+<img src="/assets/images/posts_img/django_tutorial_images/image9.png" width="100%" height="100%"  alt="img_not_loaded"> 
 
 
 - django의 app은 각각의 경로를 누구한테 위임할지 urls.py 에서 지정합니다   
