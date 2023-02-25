@@ -284,3 +284,6 @@ defaults:
       related: true
       sidebar:
         nav: "categories"
+
+my_value: "svyu_svyu"
+gdrive_url_prefix: "https://drive.google.com/uc?export=view&id="

@@ -1,8 +1,11 @@
 ---
-title: "Hi all! I'm OOOOOO👋🏻"
+title: "Hi all! I'm sVyu👋🏻"
 permalink: /about/
 layout: single
 comments: false
 ---
 
-본인 소개 여기에 입력
+안녕하세요
+논리적 사고를 좋아하는 sVyu 입니다 :)
+
+info 추가 예정 😅

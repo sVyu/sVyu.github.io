@@ -15,6 +15,9 @@ toc_sticky: true
 
 date: 2023-02-13
 last_modified_at: 2023-02-13
+
+header:
+    teaser: "/assets/images/posts_img/django_tutorial_images/image9.png"
 ---
 
 ---
