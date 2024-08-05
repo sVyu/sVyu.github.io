@@ -22,7 +22,8 @@ header:
 ---
 ## <b><span style="color:#d62976"># Thanks for ㅡ</span></b>
 <p align="center">
-    <img src="{{ site.gdrive_url_prefix | uri_escape }}10Ve6vGisnYIMailWBm-PqzIx05drCeKB" width="50%" height="50%" alt="img_not_loaded">
+    <!-- <img src="{{ site.gdrive_url_prefix | uri_escape }}10Ve6vGisnYIMailWBm-PqzIx05drCeKB" width="50%" height="50%" alt="img_not_loaded"> -->
+    <img src="/assets/images/posts_img/front_end_with_wings/image1.png" width="50%" height="50%" alt="img_not_loaded">
 </p>
 
 [강의 링크 : 인프런](https://inf.run/v1Q3)   
@@ -91,7 +92,8 @@ javascript에서는 함수도 객체
 <span style="color:#d62976">document 객체도</span> 객체이기 때문에 <span style="color:#d62976">window 객체에 소속되어 있다</span>  
 그래서 편의를 위해 <span style="color:#d62976">생략한 형태로 사용 가능</span>하다
 
-<img src="{{ site.gdrive_url_prefix | uri_escape }}1OcBq_GL1R8pV24g-uVjZR6ZjulXlO2Zr" />
+<!-- <img src="{{ site.gdrive_url_prefix | uri_escape }}1OcBq_GL1R8pV24g-uVjZR6ZjulXlO2Zr" /> -->
+<img src="/assets/images/posts_img/front_end_with_wings/image4.png" width="100%" height="100%" alt="img_not_loaded">
 
 location  
 window.location  
@@ -196,7 +198,8 @@ class나 함수와 같은 소스코드 레벨도 될 수 있다</span>
 
 ### <span style="color:#d62976">프론트엔드 & 백엔드란?</span>
 
-<img src="{{ site.gdrive_url_prefix | uri_escape }}1HZXDh8h3c5D-p_cG-VbwUO_z2cz1sxP9" width="50%" height="50%" alt="img_not_loaded">
+<!-- <img src="{{ site.gdrive_url_prefix | uri_escape }}1HZXDh8h3c5D-p_cG-VbwUO_z2cz1sxP9" width="50%" height="50%" alt="img_not_loaded"> -->
+<img src="/assets/images/posts_img/front_end_with_wings/image5.png" width="100%" height="100%" alt="img_not_loaded">
 
 [이미지 출처](https://darvishdarab.github.io/cs421_f20/docs/readings/client_server/)
 
@@ -439,7 +442,8 @@ Webpack을 알려면 모듈을 알아야 한다
 모듈을 하나의 파일로 묶어서 배포 -> <span style="color:#d62976">번들링</span> (모듈 번들러가 수행)  
 사용자 경험 향상과도 연결된다
 
-<img src="{{ site.gdrive_url_prefix | uri_escape }}1lB1AMHU6nSrbudJykl4hduty3KZKcX4N" width="100%" height="100%" alt="img_not_loaded">
+<!-- <img src="{{ site.gdrive_url_prefix | uri_escape }}1lB1AMHU6nSrbudJykl4hduty3KZKcX4N" width="100%" height="100%" alt="img_not_loaded"> -->
+<img src="/assets/images/posts_img/front_end_with_wings/image6.png" width="100%" height="100%" alt="img_not_loaded">
 
 [이미지 출처](https://webpack.js.org/)
 
