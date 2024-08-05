@@ -286,4 +286,5 @@ defaults:
         nav: "categories"
 
 my_value: "svyu_svyu"
-gdrive_url_prefix: "https://drive.google.com/uc?export=view&id="
+# gdrive_url_prefix: "https://drive.google.com/uc?export=view&id="
+gdrive_url_prefix: 'https://drive.usercontent.google.com/download?id='
